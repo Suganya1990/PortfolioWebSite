@@ -6,13 +6,13 @@
 
 getWindowSize = () => {
   let width = window.body.clientWidth
-  if (width > 412) {
+  if (width > 430) {
     document.getElementById('navBar').classList.add('fixed-bottom')
     document.getElementById('navBar').classList.add('navbar-expand')
     document.getElementById('navbarNavAltMarkup').classList.remove('collapse')
   } else {
     document.getElementById('navBar').classList.remove('fixed-bottom')
-    document.getElementById('navBar').classList.add('fixed-top')
+    document.getElementById('navBar').classList.remove('fixed-top')
     document.getElementById('navbarNavAltMarkup').classList.add('collapse')
     document.getElementById('navBar').classList.remove('navbar-expand')
   }
