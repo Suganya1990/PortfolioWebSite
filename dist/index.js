@@ -12,7 +12,7 @@ getWindowSize = () => {
     document.getElementById('navbarNavAltMarkup').classList.remove('collapse')
   } else {
     document.getElementById('navBar').classList.remove('fixed-bottom')
-    document.getElementById('navBar').classList.remove('fixed-top')
+    document.getElementById('navBar').classList.add('fixed-top')
     document.getElementById('navbarNavAltMarkup').classList.add('collapse')
     document.getElementById('navBar').classList.remove('navbar-expand')
   }
