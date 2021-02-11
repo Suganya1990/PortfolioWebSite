@@ -4,6 +4,9 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 
 /* */
+body {
+  background: #fffbfb;
+}
 
 /*Nav Bar*/
 
@@ -55,11 +58,48 @@
   }
 
   .hero--h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .nav-link {
     font-size: 1.05rem;
     font-weight: 600;
     margin: 0 1.25em;
   }
+}
+
+@media only screen and (min-device-width: 1000px) {
+  .hero--h1 {
+    font-size: 7rem;
+  }
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    padding: 0 0.75em;
+  }
+}
+
+//about page
+
+.heading {
+  h3 {
+    border-top: 3px solid $primary;
+    width: 100%;
+    text-align: left;
+    line-height: 0.1em;
+    margin: 15px 0 20px;
+
+    span {
+      background: #fffbfb;
+      padding: 0 10px;
+    }
+  }
+}
+.img {
+  width: 230px;
+  height: auto;
+  margin: 1.5em;
+}
+.aboutMe--blurb {
+  text-align: center;
 }
