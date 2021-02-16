@@ -98,11 +98,13 @@ body {
 }
 
 //about page
-.img {
-  width: 230px;
-  height: auto;
-  margin: 1.5em;
+.aboutMe--img {
+  img {
+    width: 80%;
+    height: auto;
+  }
 }
+
 .aboutMe--blurb {
   h4 {
     font-family: $font-secondary;
@@ -120,3 +122,27 @@ body {
     color: $secondary;
   }
 }
+@media only screen and (min-device-width: 605px) {
+  .aboutMe--blurb {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h4 {
+      margin: 0.25em;
+      padding: 0.5em;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    p {
+      margin: 0.5em;
+      padding: 1em;
+    }
+  }
+}
+/*
+.
+*/
