@@ -11102,4 +11102,10 @@ body {
 /*
 .
 */
+.heading img {
+  height: 50px;
+  width: 50px;
+  color: #4348a1;
+  margin: 1em 1.5em;
+}
 /*# sourceMappingURL=main.css.map */

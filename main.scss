@@ -146,3 +146,11 @@ body {
 /*
 .
 */
+.heading {
+  img {
+    height: 50px;
+    width: 50px;
+    color: $primary;
+    margin: 1em 1.5em;
+  }
+}
