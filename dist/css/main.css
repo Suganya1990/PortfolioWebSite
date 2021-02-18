@@ -11069,6 +11069,12 @@ body {
 }
 
 @media only screen and (min-device-width: 605px) {
+  .aboutMe--img img {
+    height: 500px;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .aboutMe--blurb {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
