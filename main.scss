@@ -5,7 +5,7 @@
 
 /* */
 body {
-  background: #fffbfb;
+  background: $backgroundColor;
 }
 
 /*Nav Bar*/
@@ -88,7 +88,7 @@ body {
     margin: 15px 0 20px;
 
     span {
-      background: #fffbfb;
+      background: $backgroundColor;
       padding: 0 10px;
       font-family: $font-secondary;
       font-weight: 700;
@@ -159,5 +159,18 @@ body {
     width: 50px;
     color: $primary;
     margin: 1em 1.5em;
+  }
+}
+
+/* Contact Me Css  */
+
+.c-form {
+  width: 80%;
+  margin: 2em auto;
+  border-radius: 10px;
+  padding: 1em 1.25em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  h4 {
+    margin: 1em 0;
   }
 }

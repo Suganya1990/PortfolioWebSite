@@ -10955,7 +10955,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* */
 body {
-  background: #fffbfb;
+  background: #fbfefb;
 }
 
 /*Nav Bar*/
@@ -11039,7 +11039,7 @@ body {
 }
 
 .heading h3 span {
-  background: #fffbfb;
+  background: #fbfefb;
   padding: 0 10px;
   font-family: "Open Sans";
   font-weight: 700;
@@ -11113,5 +11113,19 @@ body {
   width: 50px;
   color: #4348a1;
   margin: 1em 1.5em;
+}
+
+/* Contact Me Css  */
+.c-form {
+  width: 80%;
+  margin: 2em auto;
+  border-radius: 10px;
+  padding: 1em 1.25em;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.c-form h4 {
+  margin: 1em 0;
 }
 /*# sourceMappingURL=main.css.map */
