@@ -10955,7 +10955,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* */
 body {
-  background: #fbfefb;
+  background: #fff;
+  padding-bottom: 65px;
 }
 
 /*Nav Bar*/
@@ -11039,7 +11040,7 @@ body {
 }
 
 .heading h3 span {
-  background: #fbfefb;
+  background: #fff;
   padding: 0 10px;
   font-family: "Open Sans";
   font-weight: 700;
@@ -11126,6 +11127,56 @@ body {
 }
 
 .c-form h4 {
-  margin: 1em 0;
+  margin: 0.75em 0;
+  font-size: 1.75rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #5a5a5a;
+}
+
+.c-form label {
+  display: none;
+}
+
+.c-form input,
+.c-form textarea {
+  border-radius: none;
+  border: none;
+  border-bottom: solid 2px rgba(67, 72, 161, 0.7);
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #5a5a5a;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 1em 0.5em;
+}
+
+.c-form input:focus {
+  border-color: #4348a1;
+}
+
+.c-form input[type='submit'] {
+  width: 30%;
+  padding: 0.25em;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  margin: 0 auto;
+}
+
+.c-form ::-webkit-input-placeholder {
+  padding: 0 0 1em 0.25em;
+}
+
+.c-form :-ms-input-placeholder {
+  padding: 0 0 1em 0.25em;
+}
+
+.c-form ::-ms-input-placeholder {
+  padding: 0 0 1em 0.25em;
+}
+
+.c-form ::placeholder {
+  padding: 0 0 1em 0.25em;
 }
 /*# sourceMappingURL=main.css.map */

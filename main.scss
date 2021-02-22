@@ -6,6 +6,7 @@
 /* */
 body {
   background: $backgroundColor;
+  padding-bottom: 65px;
 }
 
 /*Nav Bar*/
@@ -171,6 +172,40 @@ body {
   padding: 1em 1.25em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   h4 {
-    margin: 1em 0;
+    margin: 0.75em 0;
+    font-size: 1.75rem;
+    font-family: $font-secondary;
+    font-weight: 700;
+    color: $secondary;
+  }
+  label {
+    display: none;
+  }
+
+  input,
+  textarea {
+    border-radius: none;
+    border: none;
+    border-bottom: solid 2px rgba($primary, 0.7);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: $secondary;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 1em 0.5em;
+  }
+  input:focus {
+    border-color: $primary;
+  }
+  input[type='submit'] {
+    width: 30%;
+    padding: 0.25em;
+    color: #fff;
+    font-weight: 600;
+    font-family: $font-secondary;
+    margin: 0 auto;
+  }
+  ::placeholder {
+    padding: 0 0 1em 0.25em;
   }
 }

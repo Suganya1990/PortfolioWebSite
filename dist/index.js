@@ -4,7 +4,6 @@ const listOfSkills = [
   'dist/img/html.svg',
   'dist/img/js.svg',
   'dist/img/css.svg',
-  'dist/img/firebase.svg',
   'dist/img/github.svg',
   'dist/img/mysql.svg',
   'dist/img/nodejs.svg',
