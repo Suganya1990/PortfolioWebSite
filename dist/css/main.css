@@ -10956,7 +10956,8 @@ a.text-dark:hover, a.text-dark:focus {
 /* */
 body {
   background: #fff;
-  padding-bottom: 65px;
+  padding-bottom: 70px;
+  overflow: none;
 }
 
 /*Nav Bar*/
@@ -11113,25 +11114,40 @@ body {
   height: 50px;
   width: 50px;
   color: #4348a1;
+  margin: 2em auto;
   margin: 1em 1.5em;
 }
 
 /* Contact Me Css  */
+.c-message h4 {
+  margin: 1em auto;
+  font-size: 1.25rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #5a5a5a;
+}
+
+.c-message p {
+  margin: 1em;
+  font-family: "Open Sans";
+  color: #5a5a5a;
+}
+
+.c-social {
+  margin: 1.25em auto;
+}
+
+.c-social i {
+  font-size: 1.25rem;
+}
+
 .c-form {
   width: 80%;
-  margin: 2em auto;
+  margin: auto;
   border-radius: 10px;
   padding: 1em 1.25em;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.c-form h4 {
-  margin: 0.75em 0;
-  font-size: 1.75rem;
-  font-family: "Open Sans";
-  font-weight: 700;
-  color: #5a5a5a;
 }
 
 .c-form label {
