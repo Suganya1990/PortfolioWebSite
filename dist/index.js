@@ -66,7 +66,7 @@ dynamicGrid = (width) => {
       arr[i].classList.remove('col-3')
       arr[i].classList.add('col-6')
     }
-  } else if (width > 411 && width <= 1024) {
+  } else if (width > 450 && width <= 1024) {
     for (var i = 0; i < arr.length; i++) {
       arr[i].classList.remove('col-6')
       arr[i].classList.remove('col-3')
