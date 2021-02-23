@@ -60,7 +60,7 @@ addCol = (item, col) => {}
 
 dynamicGrid = (width) => {
   var arr = document.getElementsByClassName('col')
-  if (width <= 411) {
+  if (width <= 450) {
     for (var i = 0; i < arr.length; i++) {
       arr[i].classList.remove('col-4')
       arr[i].classList.remove('col-3')
