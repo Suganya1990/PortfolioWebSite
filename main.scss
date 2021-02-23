@@ -164,6 +164,20 @@ body {
     margin: 1em 1.5em;
   }
 }
+/* Portfolio */
+.p-card {
+  float: none;
+  margin: 1em;
+  width: 18em;
+}
+
+@media only screen and (min-device-width: 475px) and (max-device-width: 750px) {
+  .p-card {
+    width: 350px;
+    max-width: 350px;
+    height: auto;
+  }
+}
 
 /* Contact Me Css  */
 .c-message {
