@@ -11120,9 +11120,9 @@ body {
 
 /* Portfolio */
 .p-card {
+  width: 18em;
   float: none;
   margin: 1em;
-  width: 18em;
 }
 
 @media only screen and (min-device-width: 475px) and (max-device-width: 750px) {
@@ -11134,6 +11134,11 @@ body {
 }
 
 /* Contact Me Css  */
+.c-message {
+  float: none;
+  margin: auto;
+}
+
 .c-message h4 {
   margin: 1em auto;
   font-size: 1.25rem;
@@ -11164,7 +11169,8 @@ body {
 
 .c-form {
   width: 80%;
-  margin: auto;
+  float: none;
+  margin: 0 auto;
   border-radius: 10px;
   padding: 1em 1.25em;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
