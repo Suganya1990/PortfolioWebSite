@@ -123,6 +123,9 @@ body {
     font-weight: 900;
     color: $secondary;
   }
+  .button {
+    font-family: $font-secondary;
+  }
 }
 @media only screen and (min-device-width: 605px) {
   .aboutMe--img {
@@ -152,6 +155,7 @@ body {
     }
   }
 }
+
 /*
 .
 */

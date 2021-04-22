@@ -11070,6 +11070,10 @@ body {
   color: #5a5a5a;
 }
 
+.aboutMe--blurb .button {
+  font-family: "Open Sans";
+}
+
 @media only screen and (min-device-width: 605px) {
   .aboutMe--img img {
     height: 500px;
