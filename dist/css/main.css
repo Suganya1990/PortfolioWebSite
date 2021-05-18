@@ -11114,12 +11114,15 @@ body {
 /*
 .
 */
+.heading {
+  margin: 0 auto;
+}
+
 .heading img {
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 100%;
   color: #4348a1;
-  margin: 2em auto;
-  margin: 1em 1.5em;
+  margin: 1em auto 0 auto;
 }
 
 /* Portfolio */
