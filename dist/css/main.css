@@ -11048,12 +11048,12 @@ body {
   color: #4348a1;
 }
 
-.aboutMe--img img {
-  width: 80%;
+.aboutMe--img {
+  width: 90%;
   height: auto;
 }
 
-.aboutMe--blurb h4 {
+.aboutMe--blurb .aboutMe--h {
   font-family: "Open Sans";
   margin: 0.25em 0;
   text-align: center;
@@ -11061,7 +11061,7 @@ body {
   font-weight: 600;
 }
 
-.aboutMe--blurb p {
+.aboutMe--blurb .aboutMe--p {
   font-family: "Open Sans";
   font-size: 0.8rem;
   padding: 0 2em;
@@ -11074,15 +11074,17 @@ body {
   font-family: "Open Sans";
 }
 
-@media only screen and (min-device-width: 605px) {
+@media only screen and (min-width: 605px) {
+  .aboutMe--img {
+    margin: auto;
+  }
   .aboutMe--img img {
-    height: 500px;
+    height: 700px;
     width: auto;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .aboutMe--blurb {
-    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     display: -webkit-box;
@@ -11099,15 +11101,19 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .aboutMe--blurb h4 {
-    margin: 0.25em;
+  .aboutMe--blurb .aboutMe--h {
     padding: 0.5em;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 3rem;
   }
-  .aboutMe--blurb p {
+  .aboutMe--blurb .aboutMe--p {
+    font-size: 1.25rem;
     margin: 0.5em;
     padding: 1em;
+  }
+  .aboutMe--blurb .button {
+    width: 144px;
+    height: 72px;
+    font-size: 1.75rem;
   }
 }
 

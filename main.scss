@@ -101,21 +101,19 @@ body {
 
 //about page
 .aboutMe--img {
-  img {
-    width: 80%;
-    height: auto;
-  }
+  width: 90%;
+  height: auto;
 }
 
 .aboutMe--blurb {
-  h4 {
+  .aboutMe--h {
     font-family: $font-secondary;
     margin: 0.25em 0;
     text-align: center;
     color: $primary;
     font-weight: 600;
   }
-  p {
+  .aboutMe--p {
     font-family: $font-secondary;
     font-size: 0.8rem;
     padding: 0 2em;
@@ -127,31 +125,36 @@ body {
     font-family: $font-secondary;
   }
 }
-@media only screen and (min-device-width: 605px) {
+@media only screen and (min-width: 605px) {
   .aboutMe--img {
+    margin: auto;
     img {
-      height: 500px;
+      height: 700px;
       width: auto;
       object-fit: cover;
     }
   }
   .aboutMe--blurb {
-    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h4 {
-      margin: 0.25em;
+
+    .aboutMe--h {
       padding: 0.5em;
-      font-size: 2rem;
-      font-weight: 600;
+      font-size: 3rem;
     }
-    p {
+    .aboutMe--p {
+      font-size: 1.25rem;
       margin: 0.5em;
       padding: 1em;
+    }
+    .button {
+      width: 144px;
+      height: 72px;
+      font-size: 1.75rem;
     }
   }
 }
